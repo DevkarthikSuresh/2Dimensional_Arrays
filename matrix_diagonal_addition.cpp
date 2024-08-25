@@ -8,7 +8,14 @@ int main() {  int i, j, r= 3, c = 3;
     int a[r][c] = {{1,2,3},{5,7,4},{5,9,1}}, sum=0; 
 
     if(r == c){
-    
+
+    cout << "Given matrix is:"
+    for(i = 0;i<r;i++){
+       for(j = 0;j<c;j++) {
+         cout << a[i][j] << " ";
+       }
+        cout << endl;
+    }
     for(i = 0;i<r;i++){
        for(j = 0;j<c;j++) {
           if(i == j){
@@ -24,5 +31,8 @@ else
 }
 /*
 Output
+1 2 3 
+5 7 4 
+5 9 1 
 The sum of diagonals is : 9
 */
