@@ -5,6 +5,9 @@ Experiment 8
 ## AIM
 To study and implement 2 Dimensional arrays in C++
 
+## Software Used 
+VS Code
+
 ## Theory
 A 2D array is a data structure that with a grid, where each element is identified by two indices: a row index and a column index.  
 
@@ -128,3 +131,5 @@ int matrix[3][4] = {
 
 5. **End**
 
+## Conclusion
+We learnt about the use cases of 2 dimensional matrices in C++.
